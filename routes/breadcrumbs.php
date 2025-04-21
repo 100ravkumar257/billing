@@ -11,6 +11,7 @@ Breadcrumbs::for('testimonials.index', function ($trail) {
     $trail->push(__('testimonial.breadcrumb.index'), route('testimonials.index'));
 });
 
+
 Breadcrumbs::for('testimonials.create', function ($trail) {
     $trail->parent('testimonials.index');
     $trail->push(__('testimonial.breadcrumb.create'), route('testimonials.create'));
