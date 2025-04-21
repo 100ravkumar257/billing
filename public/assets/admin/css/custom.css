@@ -1,0 +1,144 @@
+.login-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #227676, #0b4176) !important;
+}
+.close{
+    color: white !important;
+}
+.select2{
+    width: 100% !important;
+}
+/* .bg-danger-custom{
+    background: #eb2f06;
+}
+.btn-outline-warning:hover{
+    color: white !important;
+} */
+
+
+.breadcrumb-card{
+    padding: 8px 5px;
+    margin-bottom: 1.875rem;
+    position: sticky;
+    top: 60px;
+    background: #fff;
+    z-index: 9;
+    padding: 15px;
+    box-shadow: 0px 12px 25px -25px #000;
+}
+.breadcrumb .active-breadcrumb a{
+    color: #B53471 !important;
+}
+
+
+.save-button{
+    margin-right: 5px;
+}
+.save-btn button{
+    margin-top: 8px;
+    padding: 8px 15px;
+}
+
+.create-btn{
+    margin-right: 5px;
+}
+.create-btn a{
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+.create-btn button{
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+.custom-create-btn {
+    color: #cc6f04; /* Default text color */
+    border: 2px solid #cc6f04; /* Border color */
+    border-radius: 50px; /* Rounded border */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px; /* Adjust padding for better look */
+    font-weight: normal; /* Make text bold */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.custom-create-btn:hover {
+ 
+    background-color:#f88d35;
+    color: rgb(77, 77, 77) !important;
+
+}
+
+
+.custom-create-btn:hover{
+    color: #FFF;
+    border-color: cc6f04;
+}
+.custom-edit-btn{
+    padding: .40rem .5rem !important;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: #000000;
+    border-color: #4e73df;
+}
+ 
+.custom-delete-btn{
+    padding: .15rem .5rem .10rem .5rem !important;
+    font-size: .875rem;
+    line-height: 1.5;
+    border: none !important;
+    color: #000000;
+    background-color: transparent;
+
+     
+}
+
+ 
+.custom-badge{
+    background-color: #30336b;
+    color: white;
+}
+
+label.required:after {
+    content: "*";
+    color: red;
+}
+.custom-table a{
+    margin-right: 4px;
+}
+/* .custom-table .btn{
+    padding: 2px 6px;
+} */
+.custom-table a svg{
+    width: 17px;
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+}
+.custom-table i:hover{
+    color: white !important;
+}
+.select2{
+    width: 100%;
+}
+
+.slow .toggle-group { transition: left 0.7s; -webkit-transition: left 0.7s; }
+.fast .toggle-group { transition: left 0.1s; -webkit-transition: left 0.1s; }
+.quick .toggle-group { transition: none; -webkit-transition: none; }
+.toggle-group .btn{
+    padding: 2px 2px 0px 2px !important;
+}
+.toggle-group .btn-success{
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+.toggle-group .btn-success:hover{
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.crud-body{
+    margin-top: 40px;
+}
+
